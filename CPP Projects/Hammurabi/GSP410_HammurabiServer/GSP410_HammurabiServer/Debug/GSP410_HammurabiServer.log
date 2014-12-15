@@ -1,0 +1,31 @@
+﻿Build started 8/2/2012 3:02:16 PM.
+     1>Project "C:\Users\Joe\Desktop\GSP410_HammurabiServer\GSP410_HammurabiServer\GSP410_HammurabiServer.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Joe\Desktop\GSP410_HammurabiServer\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\GSP410_HammurabiServer.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HammurabiGame.cpp main.cpp ServerInterface.cpp WSAErrors.cpp
+         WSAErrors.cpp
+         ServerInterface.cpp
+         main.cpp
+         HammurabiGame.cpp
+     1>c:\users\joe\desktop\gsp410_hammurabiserver\gsp410_hammurabiserver\hammurabigame.cpp(6): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\joe\desktop\gsp410_hammurabiserver\gsp410_hammurabiserver\hammurabigame.cpp(82): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joe\Desktop\GSP410_HammurabiServer\Debug\GSP410_HammurabiServer.exe" /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GSP410_HammurabiServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joe\Desktop\GSP410_HammurabiServer\Debug\GSP410_HammurabiServer.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joe\Desktop\GSP410_HammurabiServer\Debug\GSP410_HammurabiServer.lib" /MACHINE:X86 Debug\HammurabiGame.obj
+         Debug\main.obj
+         Debug\ServerInterface.obj
+         Debug\WSAErrors.obj
+         GSP410_HammurabiServer.vcxproj -> C:\Users\Joe\Desktop\GSP410_HammurabiServer\Debug\GSP410_HammurabiServer.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Joe\Desktop\GSP410_HammurabiServer\Debug\GSP410_HammurabiServer.exe;#1" /manifest Debug\GSP410_HammurabiServer.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\GSP410_HammurabiServer.unsuccessfulbuild".
+         Touching "Debug\GSP410_HammurabiServer.lastbuildstate".
+     1>Done Building Project "C:\Users\Joe\Desktop\GSP410_HammurabiServer\GSP410_HammurabiServer\GSP410_HammurabiServer.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.60

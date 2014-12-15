@@ -1,0 +1,17 @@
+﻿Build started 3/16/2013 2:24:08 PM.
+     1>Project "C:\Users\Joe\Desktop\Backup\penquinPersuit\penquinPersuit.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\penquinPersuit.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         penquinPersuit.vcxproj -> C:\Users\Joe\Desktop\Backup\penquinPersuit\Debug\penquinPersuit.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\penquinPersuit.unsuccessfulbuild".
+         Touching "Debug\penquinPersuit.lastbuildstate".
+     1>Done Building Project "C:\Users\Joe\Desktop\Backup\penquinPersuit\penquinPersuit.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.22

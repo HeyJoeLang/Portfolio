@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="directXClass">
+</Property><Property Name="Solution File" Value="E:\DirectX\PONG\directXClass.sln">
+</Property><Property Name="User Options File" Value="E:\DirectX\PONG\directXClass.suo">
+</Property><Property Name="Date" Value="Sunday, June 10, 2012">
+</Property><Property Name="Time" Value="15:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="directXClass.sln" Description="File successfully backed up as E:\DirectX\PONG\directXClass.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="directXClass.suo" Description="File successfully backed up as E:\DirectX\PONG\directXClass.suo.old">
+</Event><Event ErrorLevel="0" Project="directXClass" Source="directXClass\directXClass.vcproj" Description="Converting project file 'E:\DirectX\PONG\directXClass\directXClass.vcproj'.">
+</Event><Event ErrorLevel="1" Project="directXClass" Source="directXClass\directXClass.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="directXClass" Source="directXClass\directXClass.vcproj" Description="Done converting to new project file 'E:\DirectX\PONG\directXClass\directXClass.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="directXClass" Source="directXClass\directXClass.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="directXClass.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="directXClass.sln" Description="Converted">
+</Event></UpgradeLog>

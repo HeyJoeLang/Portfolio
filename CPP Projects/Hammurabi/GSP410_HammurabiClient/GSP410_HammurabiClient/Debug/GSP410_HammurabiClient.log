@@ -1,0 +1,34 @@
+﻿Build started 8/2/2012 2:49:26 PM.
+     1>Project "C:\Users\Joe\Desktop\GSP410_HammurabiClient\GSP410_HammurabiClient\GSP410_HammurabiClient.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Joe\Desktop\GSP410_HammurabiClient\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\GSP410_HammurabiClient.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientInterface.cpp main.cpp View.cpp WSAErrors.cpp
+         WSAErrors.cpp
+         View.cpp
+     1>c:\users\joe\desktop\gsp410_hammurabiclient\gsp410_hammurabiclient\view.cpp(150): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\joe\desktop\gsp410_hammurabiclient\gsp410_hammurabiclient\view.cpp(224): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\joe\desktop\gsp410_hammurabiclient\gsp410_hammurabiclient\view.cpp(287): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\joe\desktop\gsp410_hammurabiclient\gsp410_hammurabiclient\view.cpp(455): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         main.cpp
+         ClientInterface.cpp
+         Generating Code...
+     1>c:\users\joe\desktop\gsp410_hammurabiclient\gsp410_hammurabiclient\clientinterface.cpp(145): warning C4700: uninitialized local variable 'od' used
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Joe\Desktop\GSP410_HammurabiClient\Debug\GSP410_HammurabiClient.exe" /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GSP410_HammurabiClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Joe\Desktop\GSP410_HammurabiClient\Debug\GSP410_HammurabiClient.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Joe\Desktop\GSP410_HammurabiClient\Debug\GSP410_HammurabiClient.lib" /MACHINE:X86 Debug\ClientInterface.obj
+         Debug\main.obj
+         Debug\View.obj
+         Debug\WSAErrors.obj
+         GSP410_HammurabiClient.vcxproj -> C:\Users\Joe\Desktop\GSP410_HammurabiClient\Debug\GSP410_HammurabiClient.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Joe\Desktop\GSP410_HammurabiClient\Debug\GSP410_HammurabiClient.exe;#1" /manifest Debug\GSP410_HammurabiClient.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\GSP410_HammurabiClient.unsuccessfulbuild".
+         Touching "Debug\GSP410_HammurabiClient.lastbuildstate".
+     1>Done Building Project "C:\Users\Joe\Desktop\GSP410_HammurabiClient\GSP410_HammurabiClient\GSP410_HammurabiClient.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.36
